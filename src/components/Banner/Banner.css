@@ -1,0 +1,7 @@
+.banner {
+  background: url('../../assets/futbol-banner-3.jpg') 
+    no-repeat center center/cover;
+  color: rgb(242, 244, 248);
+  padding: 100px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}

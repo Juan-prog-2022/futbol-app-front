@@ -3,22 +3,18 @@ import './App.css';
 import Home from './pages/Home';
 import Jugadores from './pages/Jugadores';
 import Equipos from './pages/Equipos';
+import Layout from './components/Layout/Layout';
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <Layout>
         <Routes>
-          {/* Página principal */}
           <Route path="/" element={<Home />} />
-
-          {/* Página para mostrar los jugadores */}
           <Route path="/jugadores" element={<Jugadores />} />
-
-          {/* Página para mostrar los equipos */}
           <Route path="/equipos" element={<Equipos />} />
         </Routes>
-      </div>
+      </Layout>
     </Router>
   );
 }

@@ -1,0 +1,17 @@
+.navbar {
+    background-color: #006400; /* Verde oscuro */
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar a:hover {
+    color: yellow; /* Efecto de hover */
+  }
+  
